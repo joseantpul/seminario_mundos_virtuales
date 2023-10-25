@@ -10,7 +10,7 @@ Para trasladar la cámara podemos usar translate y luego rotate que son métodos
 
 3- Sitúa la esfera de radio 1 en el campo de visión de la cámara y configura un volumen de vista que la recorte parcialmente.
 
-	Para esto podemos hacerlo de dos formas, la primera es aumentando el campo 
+Para esto podemos hacerlo de dos formas, la primera es aumentando el campo 
 Near esto haría que la primera mitad de la esfera desapareciese, todo lo que estuviese a una distancia menor al campo Near de la cámara no aparecería, en cambio si disminuimos el campo Far lo que pasaría es que solo podemos ver los objetos que se encuentran entre el campo Near y el Far, si están demasiado lejos no se podrán ver.
 
 
@@ -21,12 +21,12 @@ Para esto podemos o reducir el Far lo suficiente como para que la distancia desd
 
 5- Como puedes aumentar el ángulo de la cámara. Qué efecto tiene disminuir el ángulo de la cámara.
 
-	Para cambiar el ángulo de la cámara modificamos el fov, field of view, de la cámara, disminuirlo hace que el campo de visión de la cámara tenga un menor ángulo, es decir mostrará menos objetos, como si hiciese zoom.
+Para cambiar el ángulo de la cámara modificamos el fov, field of view, de la cámara, disminuirlo hace que el campo de visión de la cámara tenga un menor ángulo, es decir mostrará menos objetos, como si hiciese zoom.
 
 
 6- Es correcta la siguiente afirmación: Para realizar la proyección al espacio 2D, en el inspector de la cámara, cambiaremos el valor de projection, asignándole el valor de orthographic.
 
-	Cuando cambiamos la cámara a modo ortográfico todos los objetos son del mismo tamaño sin importar la distancia a la cámara, es decir no hay distorsión por perspectiva y se ve con un efecto 2d
+Cuando cambiamos la cámara a modo ortográfico todos los objetos son del mismo tamaño sin importar la distancia a la cámara, es decir no hay distorsión por perspectiva y se ve con un efecto 2d
 
 
 7- Especifica las rotaciones que se han indicado en los ejercicios previos con la utilidad quaternion.
